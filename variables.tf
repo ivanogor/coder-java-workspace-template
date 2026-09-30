@@ -7,7 +7,7 @@ variable "namespace" {
 variable "workspace_image" {
   description = "Docker image used for student workspace"
   type        = string
-  default     = "coder-java-workspace:dev"
+  default     = "ghcr.io/ivanogor/coder-java-workspace:dev"
 }
 
 variable "cpu_request" {
